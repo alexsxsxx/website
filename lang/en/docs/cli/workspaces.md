@@ -1,4 +1,4 @@
----
+    ---
 id: docs_cli_workspaces
 guide: docs_cli
 layout: guide
@@ -58,5 +58,5 @@ This will invoke the test script for each workspace.
 This will also pass forward flags and can be useful for CI processes.
 
 ```sh
-yarn workspaces run test --ci
+yarn workspaces run test --ci  
 ```
